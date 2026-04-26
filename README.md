@@ -53,7 +53,7 @@
 <div align="center">
 
 <a href="https://github.com/Jarpula-Nirjala/FOODMINE-REACT">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=food-ordering-app&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=FOODMINE-REACT&theme=tokyonight&hide_border=true"/>
 </a>
 
 <a href="https://github.com/Jarpula-Nirjala/Library_management">
@@ -68,6 +68,7 @@
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=anemia-detection&theme=tokyonight&hide_border=true"/>
 </a>
 
+</div>
 </div>
 
 ---

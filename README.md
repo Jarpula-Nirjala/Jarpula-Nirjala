@@ -53,23 +53,26 @@
 
 <div align="center">
 
-<a href="https://github.com/Jarpula-Nirjala/FOODMINE-REACT">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=FOODMINE-REACT&theme=tokyonight&hide_border=true"/>
+<!-- Top Row (Best Projects) -->
+<a href="https://github.com/Jarpula-Nirjala/anemia-detection">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=anemia-detection&theme=tokyonight&hide_border=true"/>
 </a>
 
-<a href="https://github.com/Jarpula-Nirjala/Library_management">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=Library_management&theme=tokyonight&hide_border=true"/>
+<a href="https://github.com/Jarpula-Nirjala/ai-job-agent">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=ai-job-agent&theme=tokyonight&hide_border=true"/>
+</a>
+
+<br/><br/>
+
+<!-- Second Row -->
+<a href="https://github.com/Jarpula-Nirjala/FOODMINE-REACT">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=FOODMINE-REACT&theme=tokyonight&hide_border=true"/>
 </a>
 
 <a href="https://github.com/Jarpula-Nirjala/Virtual_Assistant">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=Virtual_Assistant&theme=tokyonight&hide_border=true"/>
 </a>
 
-<a href="https://github.com/Jarpula-Nirjala/anemia-detection">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=anemia-detection&theme=tokyonight&hide_border=true"/>
-</a>
-
-</div>
 </div>
 
 ---

@@ -23,37 +23,31 @@
 
 <h2 align="center">🧊 About Me</h2>
 
-<div align="center">
-<table>
+<table width="100%">
 <tr>
 
 <td width="60%" align="left">
 
 <ul>
-
 <li>🎓 <b>B.Tech – Electronics & Communication Engineering</b></li>
-
 <li>🏫 <b>Indian Institute of Information Technology, Surat</b></li>
-
 <li>💡 Passionate about <b>AI, Development & Problem Solving</b></li>
-
 <li>🚀 Building <b>real-world impactful projects</b></li>
-
 <li>📈 Constantly learning & improving</li>
-
 </ul>
 
 </td>
 
 <td width="40%" align="center">
-<img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="260"/>
+
+<img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="100%"/>
+
 </td>
 
 </tr>
 </table>
-</div>
 
----
+----
 
 <h2 align="center">🚀 Featured Projects</h2>
 

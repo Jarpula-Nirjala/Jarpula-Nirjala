@@ -60,7 +60,7 @@
 <td style="width:50%; padding:20px; border-radius:12px; background:linear-gradient(135deg,#0f172a,#1e293b);">
 
 <a href="https://github.com/Jarpula-Nirjala/NeuroFuseNet">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=alzheimer-parkinson-classifier&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=NeuroFuseNet&theme=tokyonight&hide_border=true"/>
 </a>
 
 <br/>

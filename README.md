@@ -52,7 +52,7 @@
 
 <div align="center">
 
-<a href="https://github.com/Jarpula-Nirjala/food-ordering-app">
+<a href="https://github.com/Jarpula-Nirjala/FOODMINE-REACT">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=food-ordering-app&theme=tokyonight&hide_border=true"/>
 </a>
 

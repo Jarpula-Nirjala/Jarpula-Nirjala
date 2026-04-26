@@ -71,12 +71,68 @@
 </div>
 
 ---
+
+
 <h2 align="center">🛠 Tech Stack</h2>
+
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,cpp,c,js,react,nodejs,mongodb,mysql" />
-<br/><br/>
-<img src="https://skillicons.dev/icons?i=git,github,linux,vscode,arduino,matlab,html,css" />
+<table>
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=python" width="70"/><br/>Python
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=cpp" width="70"/><br/>C++
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=c" width="70"/><br/>C
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=js" width="70"/><br/>JavaScript
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=react" width="70"/><br/>React
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=nodejs" width="70"/><br/>Node.js
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=mongodb" width="70"/><br/>MongoDB
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=mysql" width="70"/><br/>MySQL
+</td>
+</tr>
+
+<tr>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=git" width="70"/><br/>Git
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=github" width="70"/><br/>GitHub
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=linux" width="70"/><br/>Linux
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=vscode" width="70"/><br/>VS Code
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=arduino" width="70"/><br/>Arduino
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=matlab" width="70"/><br/>MATLAB
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=html" width="70"/><br/>HTML5
+</td>
+<td align="center">
+<img src="https://skillicons.dev/icons?i=css" width="70"/><br/>CSS3
+</td>
+</tr>
+
+</table>
 
 </div>
 

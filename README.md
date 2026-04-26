@@ -6,14 +6,14 @@
 
 <div align="center">
 
-<img src="https://komarev.com/ghpvc/?username=ui22ec34&style=for-the-badge&color=0AFF99"/>
+<img src="https://komarev.com/ghpvc/?username=Jarpula-Nirjala&style=for-the-badge&color=0AFF99"/>
 
-<a href="https://github.com/ui22ec34?tab=followers">
-  <img src="https://img.shields.io/github/followers/ui22ec34?style=for-the-badge&logo=github&color=0AFF99"/>
+<a href="https://github.com/Jarpula-Nirjala?tab=followers">
+  <img src="https://img.shields.io/github/followers/Jarpula-Nirjala?style=for-the-badge&logo=github&color=0AFF99"/>
 </a>
 
-<a href="https://github.com/ui22ec34?tab=stars">
-  <img src="https://img.shields.io/github/stars/ui22ec34?style=for-the-badge&logo=github&color=FFD700"/>
+<a href="https://github.com/Jarpula-Nirjala?tab=stars">
+  <img src="https://img.shields.io/github/stars/Jarpula-Nirjala?style=for-the-badge&logo=github&color=FFD700"/>
 </a>
 
 </div>
@@ -27,11 +27,11 @@
 <tr>
 <td width="65%">
 
-- 🎓 **B.Tech – Electronics & Communication Engineering**
-- 🏫 **Indian Institute of Information Technology, Surat**
-- 💡 Passionate about **coding, development & problem solving**
-- 🚀 Focused on building **real-world projects**
-- 📈 Continuously learning and improving
+* 🎓 **B.Tech – Electronics & Communication Engineering**
+* 🏫 **Indian Institute of Information Technology, Surat**
+* 💡 Passionate about **coding, development & problem solving**
+* 🚀 Focused on building **real-world projects**
+* 📈 Continuously learning and improving
 
 </td>
 <td width="35%" align="center">
@@ -49,9 +49,9 @@
 
 <div align="center">
 
-✔ Improving DSA & problem solving  
-✔ Building development + ML based projects  
-✔ Exploring new technologies  
+✔ Improving DSA & problem solving
+✔ Building development + ML based projects
+✔ Exploring new technologies
 
 </div>
 
@@ -75,9 +75,9 @@
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=ui22ec34&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Jarpula-Nirjala&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ui22ec34&layout=compact&theme=radical&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jarpula-Nirjala&layout=compact&theme=tokyonight&hide_border=true"/>
 
 </div>
 
@@ -87,7 +87,7 @@
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com?user=ui22ec34&theme=radical&hide_border=true"/>
+<img src="https://streak-stats.demolab.com?user=Jarpula-Nirjala&theme=tokyonight&hide_border=true"/>
 
 </div>
 

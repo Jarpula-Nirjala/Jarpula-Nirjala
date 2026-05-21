@@ -101,7 +101,7 @@ ML-based diagnosis using image analysis
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Jarpula-Nirjala&repo=FOODMINE-REACT&theme=tokyonight&hide_border=true"/>
 </a>
 </td>
-</tr>
+</tr> 
 
 <!-- ⚡ ROW 3 -->
 <tr>

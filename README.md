@@ -188,6 +188,8 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
   <tr>
     <td><b>LLMs &amp; GenAI</b></td>
     <td>
+      <img src="https://img.shields.io/badge/Generative_AI-B08A3E?style=for-the-badge" alt="Generative AI" />
+      <img src="https://img.shields.io/badge/Agentic_AI-1B3A5C?style=for-the-badge" alt="Agentic AI" />
       <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
       <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langgraph&logoColor=white" alt="LangGraph" />
       <img src="https://img.shields.io/badge/RAG-B08A3E?style=for-the-badge" alt="RAG" />
@@ -204,12 +206,12 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
     <td><img src="https://skillicons.dev/icons?i=python,cpp,c,ts,js,go,rust,bash&perline=8" alt="Python, C++, C, TypeScript, JavaScript, Go, Rust, Bash" /></td>
   </tr>
   <tr>
-    <td><b>Backend</b></td>
-    <td><img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,express,redis&perline=8" alt="FastAPI, Flask, Node.js, Express, Redis" /></td>
+    <td><b>DevOps &amp; tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,linux,git,github,githubactions,cmake,vscode&perline=8" alt="Docker, Linux, Git, GitHub, GitHub Actions, CMake, VS Code" /></td>
   </tr>
   <tr>
-    <td><b>Databases</b></td>
-    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql&perline=8" alt="PostgreSQL, MongoDB, MySQL" /></td>
+    <td><b>Backend</b></td>
+    <td><img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,express,redis&perline=8" alt="FastAPI, Flask, Node.js, Express, Redis" /></td>
   </tr>
   <tr>
     <td><b>Frontend</b></td>
@@ -220,8 +222,8 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
     <td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&perline=8" alt="PyTorch, TensorFlow, scikit-learn, OpenCV" /></td>
   </tr>
   <tr>
-    <td><b>DevOps &amp; tools</b></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,linux,git,github,githubactions,cmake,vscode&perline=8" alt="Docker, Linux, Git, GitHub, GitHub Actions, CMake, VS Code" /></td>
+    <td><b>Databases</b></td>
+    <td><img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql&perline=8" alt="PostgreSQL, MongoDB, MySQL" /></td>
   </tr>
 </table>
 

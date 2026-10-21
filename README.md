@@ -15,7 +15,7 @@
   <a href="#-research"><img src="https://img.shields.io/badge/arXiv-2%20papers-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="2 papers on arXiv" /></a>
   <a href="https://qraftly.onrender.com"><img src="https://img.shields.io/badge/Live-QRaftly-B08A3E?style=for-the-badge&logo=render&logoColor=white" alt="QRaftly live" /></a>
   <a href="https://cowrite-uwpc.onrender.com/"><img src="https://img.shields.io/badge/Live-CoWrite-1B3A5C?style=for-the-badge&logo=render&logoColor=white" alt="CoWrite live" /></a>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=Jarpula-Nirjala.Jarpula-Nirjala&left_text=Profile%20views&left_color=%230D1B2A&right_color=%23B08A3E" height="28" alt="Profile views" />
+  <img src="https://raw.githubusercontent.com/Jarpula-Nirjala/Jarpula-Nirjala/output/views.svg" alt="Profile views" />
 </p>
 
 ---
@@ -275,6 +275,9 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
     <img src="https://raw.githubusercontent.com/Jarpula-Nirjala/Jarpula-Nirjala/output/snake.svg" alt="A snake eating my GitHub contributions" width="100%" />
   </picture>
 </p>
+
+<!-- Records each visit for the profile-views badge (the "Profile images" workflow turns the count into views.svg). -->
+<img src="https://visitor-badge.laobi.icu/badge?page_id=Jarpula-Nirjala.Jarpula-Nirjala" width="1" height="1" alt="" />
 
 <!-- Footer -->
 <p align="center">

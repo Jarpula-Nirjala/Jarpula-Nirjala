@@ -1,10 +1,13 @@
-# Draws the contribution "snake" from this account's own activity, once a day, onto the output branch
-# that the profile README shows.
-name: Contribution snake
+# Builds the profile's images onto the output branch that the README shows:
+#  - the contribution "snake", drawn from this account's own activity
+#  - the profile-views badge. Free counters are too slow to load reliably through GitHub's image proxy,
+#    so the README only *records* visits with an invisible counter pixel, and this job reads that count
+#    (without adding a visit) and turns it into a badge file that loads instantly.
+name: Profile images
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "17 */3 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -12,10 +15,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-images
+  cancel-in-progress: false
+
+env:
+  # Views counted by the previous counter (komarev.com) before GitHub's image proxy started blocking it.
+  EARLIER_VIEWS: 502
+
 jobs:
-  snake:
+  images:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: Platane/snk@v3
         with:
@@ -23,6 +34,25 @@ jobs:
           outputs: |
             dist/snake.svg?palette=github-light&color_snake=#B08A3E&color_dots=#ebedf0,#e8dcc0,#d8be86,#c29a4e,#8a6526
             dist/snake-dark.svg?palette=github-dark&color_snake=#D4AF65&color_dots=#161b22,#2a3442,#4b5d73,#9a8150,#d4af65
+
+      - name: Profile views badge
+        run: |
+          set -u
+          page="${GITHUB_REPOSITORY_OWNER}.${GITHUB_REPOSITORY_OWNER}"
+          n=$(curl -sf --retry 4 --retry-delay 5 --max-time 40 "https://visitor-badge.laobi.icu/badge?page_id=${page}&query_only=true" \
+                | grep -o '<text[^>]*>[0-9,]*</text>' | tail -1 | sed 's/<[^>]*>//g; s/,//g' || true)
+          if [ -n "$n" ]; then
+            total=$(printf "%'d" $(( n + EARLIER_VIEWS )) 2>/dev/null || echo $(( n + EARLIER_VIEWS )))
+            curl -sf --retry 4 --retry-delay 5 --max-time 40 -o dist/views.svg \
+              "https://img.shields.io/badge/PROFILE%20VIEWS-${total//,/%2C}-B08A3E?style=for-the-badge&labelColor=0D1B2A"
+            echo "Profile views: $total"
+          else
+            # Counter unreachable this time: keep the last published badge.
+            curl -sf --max-time 40 -o dist/views.svg "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/output/views.svg" \
+              || curl -sf --max-time 40 -o dist/views.svg "https://img.shields.io/badge/PROFILE%20VIEWS-${EARLIER_VIEWS}%2B-B08A3E?style=for-the-badge&labelColor=0D1B2A"
+            echo "Counter unreachable; kept the previous badge"
+          fi
+          grep -q '<svg' dist/views.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:

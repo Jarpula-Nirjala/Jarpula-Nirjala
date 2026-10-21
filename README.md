@@ -53,9 +53,9 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
       <b>SDE Intern · IIT Bombay — cLab (Containerized Lab Platform)</b><br />
       <sub>Jul 2026 – Present · Mumbai, India</sub>
       <ul>
-        <li>Built a <b>bulk evaluation pipeline</b> that grades each submission in an <b>isolated Docker container</b>, making grading tamper-proof.</li>
-        <li>Designed a <b>client-side execution model</b> that gives students instant feedback even offline, and moved practice-time computation to students' machines, <b>cutting server load and infrastructure cost</b>.</li>
-        <li>Delivered pre-configured environments on <b>Linux, Windows and macOS</b> for 5–6 core CS subjects (Networks, OS, Cloud).</li>
+        <li>Built a <b>bulk evaluation pipeline</b> that grades every student submission inside its own <b>isolated Docker container</b>, so grading stays tamper-proof, consistent and secure, and no submission can ever affect another.</li>
+        <li>Designed a <b>client-side execution model</b> that runs practice code on students' own machines, giving instant feedback even without internet access and <b>significantly cutting server load and infrastructure cost</b>.</li>
+        <li>Delivered ready-to-use, pre-configured lab environments on <b>Linux, Windows and macOS</b> for <b>5–6 core CS subjects</b>, including Computer Networks, Operating Systems and Cloud Computing, with no setup needed.</li>
       </ul>
     </td>
   </tr>
@@ -65,9 +65,10 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
       <b>AI Systems &amp; Benchmarking Intern · AirDawg Labs</b><br />
       <sub>Jan 2026 – Mar 2026 · Bangalore, India (Remote)</sub>
       <ul>
-        <li><b>Led a team of 20+</b> curating <b>50+ adversarial benchmark tasks</b> from GitHub issues, owning review, quality gates and delivery.</li>
-        <li>Engineered <b>RLHF data pipelines</b> that extracted <b>5,000+ training signals</b> from production code to evaluate frontier LLMs.</li>
-        <li>Sandboxed LLM-generated code on a <b>custom QEMU Linux kernel</b> and built <b>pass@k</b> tooling, raising reproducibility by <b>30%</b>.</li>
+        <li><b>Led a team of 20+ contributors</b> curating <b>50+ adversarial benchmark tasks</b> from real-world GitHub issues, owning task review, quality gates and final delivery, and ensuring every task met the benchmark's standards.</li>
+        <li>Engineered <b>RLHF data pipelines</b> that extracted <b>5,000+ training signals</b> from real production code to evaluate how frontier LLMs perform on realistic software-engineering tasks drawn from real codebases.</li>
+        <li>Built <b>Dockerized environments</b> with deterministic test suites and schema validation across <b>Rust, Go, Python and Bash</b>, so every benchmark task builds, runs and is scored exactly the same way on any machine.</li>
+        <li>Sandboxed LLM-generated code on a <b>custom QEMU Linux kernel</b> and built <b>pass@k</b> evaluation tooling, raising the reproducibility of benchmark results by <b>30%</b> across repeated evaluation runs of the same models.</li>
       </ul>
     </td>
   </tr>

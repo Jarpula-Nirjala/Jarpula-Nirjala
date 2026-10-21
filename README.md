@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/Jarpula-Nirjala">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3200&pause=900&color=D4AF65&center=true&vCenter=true&width=720&height=40&lines=LLMs+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+LLM+evaluation;Published+author%3A+2+Healthcare-AI+papers+on+arXiv;SDE+Intern+%40+IIT+Bombay+%E2%80%94+cLab;IBM+RAG+and+Agentic+AI+%C2%B7+Google+AI+certified;B.Tech+ECE%2C+IIIT+Surat+%E2%80%9926" alt="LLMs, RAG and agentic AI. Two published healthcare-AI papers. SDE Intern at IIT Bombay. IIIT Surat '26." />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3200&pause=900&color=D4AF65&center=true&vCenter=true&width=960&height=40&lines=LLMs+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+LLM+evaluation;Published+author%3A+2+Healthcare-AI+papers+on+arXiv;SDE+Intern+%40+IIT+Bombay+%E2%80%94+cLab;IBM+RAG+and+Agentic+AI+%C2%B7+Google+AI+certified;Graduated+from+IIIT+Surat+%C2%B7+Dept.+of+Electronics+and+Communication+%C2%B7+2026" alt="LLMs, RAG and agentic AI. Two published healthcare-AI papers. SDE Intern at IIT Bombay. Graduated from IIIT Surat, Department of Electronics and Communication, 2026." />
   </a>
 </p>
 

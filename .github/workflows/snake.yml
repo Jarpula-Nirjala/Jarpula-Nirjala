@@ -38,25 +38,27 @@ jobs:
       - name: Profile views badge
         run: |
           set -u
+          # The snake step's dist/ belongs to its container user, so the published folder is built here.
+          mkdir -p site && cp dist/*.svg site/
           page="${GITHUB_REPOSITORY_OWNER}.${GITHUB_REPOSITORY_OWNER}"
           n=$(curl -sf --retry 4 --retry-delay 5 --max-time 40 "https://visitor-badge.laobi.icu/badge?page_id=${page}&query_only=true" \
                 | grep -o '<text[^>]*>[0-9,]*</text>' | tail -1 | sed 's/<[^>]*>//g; s/,//g' || true)
           if [ -n "$n" ]; then
             total=$(printf "%'d" $(( n + EARLIER_VIEWS )) 2>/dev/null || echo $(( n + EARLIER_VIEWS )))
-            curl -sf --retry 4 --retry-delay 5 --max-time 40 -o dist/views.svg \
+            curl -sf --retry 4 --retry-delay 5 --max-time 40 -o site/views.svg \
               "https://img.shields.io/badge/PROFILE%20VIEWS-${total//,/%2C}-B08A3E?style=for-the-badge&labelColor=0D1B2A"
             echo "Profile views: $total"
           else
             # Counter unreachable this time: keep the last published badge.
-            curl -sf --max-time 40 -o dist/views.svg "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/output/views.svg" \
-              || curl -sf --max-time 40 -o dist/views.svg "https://img.shields.io/badge/PROFILE%20VIEWS-${EARLIER_VIEWS}%2B-B08A3E?style=for-the-badge&labelColor=0D1B2A"
+            curl -sf --max-time 40 -o site/views.svg "https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/output/views.svg" \
+              || curl -sf --max-time 40 -o site/views.svg "https://img.shields.io/badge/PROFILE%20VIEWS-${EARLIER_VIEWS}%2B-B08A3E?style=for-the-badge&labelColor=0D1B2A"
             echo "Counter unreachable; kept the previous badge"
           fi
-          grep -q '<svg' dist/views.svg
+          grep -q '<svg' site/views.svg
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

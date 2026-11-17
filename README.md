@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/Jarpula-Nirjala">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3200&pause=900&color=D4AF65&center=true&vCenter=true&width=960&height=40&lines=LLMs+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+LLM+evaluation;Published+author%3A+2+Healthcare-AI+papers+on+arXiv;SDE+Intern+%40+IIT+Bombay+%E2%80%94+cLab;IBM+RAG+and+Agentic+AI+%C2%B7+Google+AI+certified;Graduated+from+IIIT+Surat+%C2%B7+Dept.+of+Electronics+and+Communication+%C2%B7+2026" alt="LLMs, RAG and agentic AI. Two published healthcare-AI papers. SDE Intern at IIT Bombay. Graduated from IIIT Surat, Department of Electronics and Communication, 2026." />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3200&pause=900&color=D4AF65&center=true&vCenter=true&width=960&height=60&lines=AI+Engineer+%40+STAGE+Technologies+Private+Limited;Ex-SDE+Intern+%40+IIT+Bombay+%E2%80%94+cLab;LLMs+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+LLM+evaluation;Published+author%3A+2+Healthcare-AI+papers+on+arXiv;IBM+RAG+and+Agentic+AI+%C2%B7+Google+AI+certified;Graduated+from+IIIT+Surat+%C2%B7+ECE+%C2%B7+2026" alt="AI Engineer at STAGE Technologies Private Limited. Former SDE Intern at IIT Bombay. LLMs, RAG, Agentic AI and Healthcare AI researcher." />
   </a>
 </p>
 
@@ -22,6 +22,8 @@
 
 ## 👩‍💻 About me
 
+I am currently working as an **AI Engineer at STAGE Technologies Private Limited**, building AI-powered solutions and working on real-world AI systems. Previously, I worked as an **SDE Intern at IIT Bombay — cLab**, contributing to a containerised lab platform.
+
 I build **AI systems that hold up outside the notebook**: retrieval-augmented generation, LLM agents, and the evaluation that shows they actually work. At AirDawg Labs I built **RLHF data pipelines and adversarial benchmarks for frontier LLMs**; in research I publish on **AI for healthcare**, with two arXiv papers on medical imaging. Underneath it all is a backend engineer who likes building things from first principles: a QR engine with its own Reed–Solomon error correction, a CRDT-based collaborative editor, a sharded key-value store in C++20.
 
 <table>
@@ -29,7 +31,10 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
     <td>🎓 &nbsp;<b>B.Tech, Electronics &amp; Communication Engineering</b>, IIIT Surat (2022 – 2026)</td>
   </tr>
   <tr>
-    <td>💼 &nbsp;<b>SDE Intern</b> at <b>IIT Bombay — cLab</b>, building a containerised lab platform</td>
+    <td>💼 &nbsp;<b>AI Engineer</b> at <b>STAGE Technologies Private Limited</b></td>
+  </tr>
+  <tr>
+    <td>🏛️ &nbsp;<b>Former SDE Intern</b> at <b>IIT Bombay — cLab</b>, building a containerised lab platform</td>
   </tr>
   <tr>
     <td>📄 &nbsp;<b>2 published papers</b> on arXiv: brain-MRI disease classification and neonatal jaundice screening</td>
@@ -48,10 +53,18 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
 
 <table>
   <tr>
-    <td width="72"><img src="https://img.shields.io/badge/-IITB-0D1B2A?style=for-the-badge" alt="" /></td>
+    <td width="72"><img src="https://img.shields.io/badge/-STAGE-B08A3E?style=for-the-badge" alt="STAGE" /></td>
     <td>
-      <b>SDE Intern · IIT Bombay — cLab (Containerized Lab Platform)</b><br />
-      <sub>Jul 2026 – Present · Mumbai, India</sub>
+      <b>AI Engineer · STAGE Technologies Private Limited</b><br />
+      <sub>Present</sub><br />
+      Currently working as an AI Engineer, contributing to the development of AI-powered solutions and real-world intelligent systems.
+    </td>
+  </tr>
+  <tr>
+    <td width="72"><img src="https://img.shields.io/badge/-IITB-0D1B2A?style=for-the-badge" alt="IIT Bombay" /></td>
+    <td>
+      <b>Former SDE Intern · IIT Bombay — cLab (Containerized Lab Platform)</b><br />
+      <sub>Jul 2026 · Mumbai, India</sub>
       <ul>
         <li>Built a <b>bulk evaluation pipeline</b> that grades every student submission inside its own <b>isolated Docker container</b>, so grading stays tamper-proof, consistent and secure, and no submission can ever affect another.</li>
         <li>Designed a <b>client-side execution model</b> that runs practice code on students' own machines, giving instant feedback even without internet access and <b>significantly cutting server load and infrastructure cost</b>.</li>
@@ -60,7 +73,7 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
     </td>
   </tr>
   <tr>
-    <td width="72"><img src="https://img.shields.io/badge/-AirDawg-1B3A5C?style=for-the-badge" alt="" /></td>
+    <td width="72"><img src="https://img.shields.io/badge/-AirDawg-1B3A5C?style=for-the-badge" alt="AirDawg" /></td>
     <td>
       <b>AI Systems &amp; Benchmarking Intern · AirDawg Labs</b><br />
       <sub>Jan 2026 – Mar 2026 · Bangalore, India (Remote)</sub>
@@ -286,3 +299,19 @@ I build **AI systems that hold up outside the notebook**: retrieval-augmented ge
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:B08A3E,45:1B3A5C,100:0D1B2A&height=110&section=footer" width="100%" alt="" />
 </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This might also interest
